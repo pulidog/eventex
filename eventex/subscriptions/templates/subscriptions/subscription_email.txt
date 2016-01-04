@@ -1,0 +1,12 @@
+Ola,
+
+legal!
+
+Nome: {{ name }}
+CPF: {{ cpf }}
+Email: {{ email }}
+Telefone: {{ phone }}
+
+depois agente fala
+
+abrazoo

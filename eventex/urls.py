@@ -17,8 +17,10 @@ from django.conf.urls import include, url
 from django.contrib import admin
 # video M2A01 sustituir a chamada do string por object
 from eventex.core.views import home
+from eventex.subscriptions.views import subscribe
 
 urlpatterns = [
     url(r'^$', home),
+    url(r'^inscricao/$', subscribe),
     url(r'^admin/', include(admin.site.urls)),
 ]

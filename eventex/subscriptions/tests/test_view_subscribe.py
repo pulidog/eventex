@@ -59,13 +59,7 @@ class SubscribeGet(TestCase):
         form = self.resp.context['form']
         self.assertIsInstance(form, SubscriptionForm)
 
-    def teste_form_has_fields(self):
-        '''
-        Form tem 4 fields
-        :return:
-        '''
-        form = self.resp.context['form']
-        self.assertSequenceEqual(['name', 'cpf', 'email', 'phone'], list(form.fields))
+
 
 
 class SubscribePostValid(TestCase):

@@ -2,6 +2,9 @@
 
 Curso ministrado pelo Henrrique Bastos
 
+[![Build Status](https://travis-ci.org/pulidog/eventex.svg?branch=master)](https://travis-ci.org/pulidog/eventex)
+[![Code Health](https://landscape.io/github/pulidog/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/pulidog/eventex/master)
+
 # Contexto
 
 Um cliente liga e pede para fazer um sistema de inscrições 'URGENTE', para un evento chamado de 'EVENTEX',
